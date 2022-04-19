@@ -113,8 +113,8 @@ public class PaymentService {
 
 	private RedirectUrls getRedirectUrls() {
 		RedirectUrls redirectUrls = new RedirectUrls();
-		redirectUrls.setCancelUrl("http://localhost:8080/PaypalServletApp/cancel.jsp");
-		redirectUrls.setReturnUrl("http://localhost:8080/PaypalServletApp/review_payment");
+		redirectUrls.setCancelUrl("http://localhost:8080/PaypalSpringMvcApp/cancel_payment");
+		redirectUrls.setReturnUrl("http://localhost:8080/PaypalSpringMvcApp/review_payment");
 		return redirectUrls;
 	}
 
